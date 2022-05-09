@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <title>Discord colored text generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Discord <span class="pinked">colored</span> text generator</h1>
+            <p class="about">This is a simple app that creates colored Discord messages<br> using the ANSI color codes</p>
+            <div class="links">
+                <a href="/guid.html" class="out pinked">How to use?</a>
+                <a href="" class="out pinked">Source code</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="l-box">
+                    <h3>Text</h3>
+                    <button data-ansi="30" class="button style-button ansi-30-bg">&nbsp;</button>
+                    <button data-ansi="31" class="button style-button ansi-31-bg">&nbsp;</button>
+                    <button data-ansi="32" class="button style-button ansi-32-bg">&nbsp;</button>
+                    <button data-ansi="33" class="button style-button ansi-33-bg">&nbsp;</button>
+                    <button data-ansi="34" class="button style-button ansi-34-bg">&nbsp;</button>
+                    <button data-ansi="35" class="button style-button ansi-35-bg">&nbsp;</button>
+                    <button data-ansi="36" class="button style-button ansi-36-bg">&nbsp;</button>
+                    <button data-ansi="37" class="button style-button ansi-37-bg">&nbsp;</button>
+                    <br><br>
+                    <h3>Background</h3>
+                    <button data-ansi="40" class="button style-button ansi-40">&nbsp;</button>
+                    <button data-ansi="41" class="button style-button ansi-41">&nbsp;</button>
+                    <button data-ansi="42" class="button style-button ansi-42">&nbsp;</button>
+                    <button data-ansi="43" class="button style-button ansi-43">&nbsp;</button>
+                    <button data-ansi="44" class="button style-button ansi-44">&nbsp;</button>
+                    <button data-ansi="45" class="button style-button ansi-45">&nbsp;</button>
+                    <button data-ansi="46" class="button style-button ansi-46">&nbsp;</button>
+                    <button data-ansi="47" class="button style-button ansi-47">&nbsp;</button>
+                </div>
+                <div class="buttons">
+                    <button data-ansi="1" class="g-button style-button ">Bold</button>
+                    <button data-ansi="4" class="g-button style-button ">Underline</button>
+                    <button data-ansi="0" class="g-button style-button ">Reset</button>
+                </div>
+                <button class="g-btn">Clear All</button>
+            </div>
+            <div class="box box2">
+                <div class="flex"><div id="textarea" contenteditable="true">Welcome to <span class="ansi-35">hurby</span>’s Discord Colored text Generator!</div>
+                <button class="btn copy">Copy colored text</button>
+            </div>
+        </div>
+        
+        </div>
+        <div class="credit-s">
+            <a href="https://discord.com/users/553961483541676053" class="credit">Created by Hurby</a>
+        </div>
+    </div>
+
+ <script src="main.js"></script>
+</body>
+</html>
