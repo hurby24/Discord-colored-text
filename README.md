@@ -10,8 +10,8 @@ about how it works
 1.Write your text\
 ![image1](web-app/imgs/ss1.png)
 
-1.Write your text\
+2.Select parts of it and assign colors to them\
 ![image2](web-app/imgs/ss2.png)
 
-1.Write your text\
+3.Copy it using the button below\
 ![image3](web-app/imgs/ss3.png)
