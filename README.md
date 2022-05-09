@@ -1,2 +1,2 @@
 # Discord-colored-text
-![plot](./imgs/ss1.png)
+![plot](web-app/imgs/ss1.png)
